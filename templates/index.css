@@ -1,0 +1,27 @@
+/* Eléments principaux de la page */
+
+body
+{
+    background: url('images/fond_jaune.png');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+.bouton{
+float: left; /* la valeur"left" pour placer le bouton à gauche,
+ "right" pour le placer à droite et "center" pour le centrer*/
+}
